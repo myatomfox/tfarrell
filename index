@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Gallowine NJ</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #F3F2F0;
+            text-align: center;
+            color: #ffffff;
+        }
+        .button {
+            display: block;
+            width: 80%;
+            max-width: 300px;
+            margin: 20px;
+            padding: 30px;
+            font-size: 24px;
+            color: #810000;
+            background-color: #CFBCA3;
+            border: none;
+            border-radius: 9px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .button:hover {
+            background-color: #810000;
+            color: #F3F2F0;
+        }
+    </style>
+</head>
+<body>
+    <a href="http://www.gallowinenj.com">
+        <img src="https://static.wixstatic.com/media/28c8fa_c6ecba8bc9d448b39499f89233d1d467~mv2.png" alt="GALLO New Jersey" style="max-width: 50%; height: auto;">
+    </a>
+    <a class="button" href="http://www.gallowinenj.com">Visit Our Website</a>
+    <a class="button" href="mailto:timothy.farrell@gallowinenj.com">Send Me an E-mail</a>
+    <a class="button" href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0AVERSION%3A3.0%0AFN%3ATim%20Farrell%0ATEL%3BTYPE%3DCELL%3A914.263.7233%0AEMAIL%3Atimothy.farrell%40gallowinenj.com%0AADR%3BTYPE%3DWORK%3A%3B%3B520%20Division%20Street%3BElizabeth%3BNJ%3B07201%3BUSA%0AEND%3AVCARD" download="Tim_Farrell_Contact.vcf">Add My Contact</a>
+</body>
+</html>
